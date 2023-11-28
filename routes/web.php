@@ -18,6 +18,10 @@ Route::get('/', function () {
     return view('dashboard');
 })->middleware(['auth']);
 
+Route::get('/sorteo', function () {
+    return view('sorteo');
+})->middleware(['auth']);
+
 Route::get('/dashboard', function () {
     return view('dashboard'); 
 })->middleware(['auth'])->name('dashboard');

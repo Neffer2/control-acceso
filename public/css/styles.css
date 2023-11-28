@@ -1,0 +1,85 @@
+html {
+    height: 100% !important;
+}
+
+body {
+    height: 100% !important;
+    background-image: url("https://www.bancodeoccidente.com.co/banco-de-occidente/imagenes/01-home/slider/2023/11-noviembre/banner-gptw-d.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.text-primary {
+    color: #008acc !important;
+}
+
+.text-secondary {
+    color: #002449 !important;
+}
+
+input {
+    border: 1px solid #adbae6 !important;
+    border-radius: 4px !important;
+    color: #555f83 !important;
+    outline: none !important;
+    padding: 10px !important;
+    width: 100% !important;
+    font-weight: 500 !important;
+    font-size: 1rem !important;
+    text-align: left !important;
+    line-height: 1.571rem !important;
+    letter-spacing: 0 !important;
+}
+
+.logo img {
+    height: 4.5rem;   
+}
+
+.sorteo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0 0 0.429rem #3333;
+    border-radius: 15px;
+}
+
+.sorteo-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+}
+
+.footer img {
+    height: 6rem;
+}
+
+.btn-primary {
+    background: #008acc;
+    color: #fff!important;
+    border: 1px solid #00adff;
+}
+
+.btn-primary:hover {
+    background: #0079b3;
+    transition: .5s;
+    color: #fff!important;
+    border: 1px solid #00adff;
+}
