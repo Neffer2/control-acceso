@@ -19,11 +19,15 @@
                 <span class="visually-hidden">Loading...</span>
             </div>
         </div>
-        @if ($showGanador)
+        @if ($showGanador) 
             <div class="ganador mb-4">
+                <div class="pyro" style="position: absolute; right: 50%">
+                    <div class="before"></div>
+                    <div class="after"></div>
+                </div>
                 <div class="form-group">
-                    <label for="">Ganador:</label>
-                    <input type="text" class="form-control" value="{{ $ganador->nombre }}">
+                    <label for="" class="bold">Felicidades!!</label>
+                    <input type="text" class="form-control" value="{{ $ganador->nombre }} - {{ $ganador->documento }}">
                 </div>
             </div>
         @endif

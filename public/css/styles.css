@@ -9,7 +9,7 @@ body {
     background-repeat: no-repeat;
 }
 
-.main {
+.main { 
     height: 100%;
     display: flex;
     justify-content: center;
@@ -82,4 +82,8 @@ input {
     transition: .5s;
     color: #fff!important;
     border: 1px solid #00adff;
+}
+
+.ganador {
+    width: 23rem !important;
 }
