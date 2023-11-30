@@ -4,9 +4,8 @@ html {
 
 body {
     height: 100% !important;
-    background-image: url("https://www.bancodeoccidente.com.co/banco-de-occidente/imagenes/01-home/slider/2023/11-noviembre/banner-gptw-d.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
+    background: rgb(255,255,255);
+    background: linear-gradient(59deg, rgba(255,255,255,1) 41%, rgba(0,138,204,1) 100%);
 }
 
 .main { 
