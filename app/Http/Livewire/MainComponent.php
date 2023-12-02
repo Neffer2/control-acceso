@@ -5,6 +5,7 @@ namespace App\Http\Livewire;
 use Livewire\Component;
 use App\Models\Invitado;
 use Livewire\WithPagination;
+use Illuminate\Support\Facades\Auth;
 
 class MainComponent extends Component
 {
@@ -33,7 +34,11 @@ class MainComponent extends Component
     public function registrar($id){
         $invitado = Invitado::find($id);
         $invitado->asistencia = 1;
- 
+        
+        if (Auth::user()->id == 5 && Auth::user()->id == 8){
+            $invitado->fidu = 1;
+        }
+
         $invitado->save();
         return redirect()->back();
     }

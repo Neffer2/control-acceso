@@ -18,6 +18,7 @@ class CreateInvitadosTable extends Migration
             $table->string('nombre');
             $table->string('documento')->unique();
             $table->string('asistencia')->nullable();
+            $table->string('fidu')->nullable();
             $table->timestamps();
         });
     }
